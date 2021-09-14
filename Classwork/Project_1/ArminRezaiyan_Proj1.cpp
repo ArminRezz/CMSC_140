@@ -29,13 +29,15 @@ int main() {
 
     cout << "************** ROBOT PROTOTYPE SCRIPTING" << endl;
     cout << "Hello, welcome to Montgomery College. My name is " << robotName << ", may I have your name?" << endl;
-    cin >> visitorName; 
+    getline(cin, visitorName); 
     cout << "Nice to have you with us today " << visitorName << "!\n";
     cout << "Let me impress you with a small game.\n";
     cout << "Give me the age of an important person or a pet to you.\n";
     cout << "Please give me only a number:";
     cin >> age;
+
     int hours = age * 365 * 24;
+
     cout << "You have entered " << age << endl; 
     cout << "If this is for a person, the age can be expressed as: " << endl;
     cout << "2 years\n";
@@ -52,15 +54,14 @@ int main() {
     cin >> randomNum1;
     cout << "Very well. Give me another whole number.";
     cin >> randomNum2; 
+
     int addition = randomNum1 + randomNum2; 
     int division = randomNum1 / randomNum2; 
+    float doubleDivision = (float)randomNum1 / randomNum2; 
+
     cout << "Using the operator '+' in C++, the result of " << randomNum1 << " + " << randomNum2 << " is " << addition << endl; 
     cout << "Using the operator '/', the result of " << randomNum1 << " / " << randomNum2 << " is " << division << endl; 
-    double randNum1 = randomNum1 * 1.0;
-    double randNum2 = randomNum2 * 1.0; 
-    double doubleDivision = randNum1 / randNum2; 
-    cout << "However, the result of " << randNum1 << " / " << randNum2 << " is about " << doubleDivision << endl; 
+    cout << "However, the result of " << randomNum1 << ".0 / " << randomNum2 << ".0 is about " << doubleDivision << endl; 
     cout << "Thank you for testing my program!!" << endl;
-
     return 0;
 }
