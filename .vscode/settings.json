@@ -5,6 +5,9 @@
         "chrono": "cpp",
         "__locale": "cpp",
         "ostream": "cpp",
-        "istream": "cpp"
+        "istream": "cpp",
+        "ios": "cpp",
+        "iomanip": "cpp",
+        "iosfwd": "cpp"
     }
 }
