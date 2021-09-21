@@ -28,6 +28,7 @@ goldfish (age * gold fish constant)
 */
 
 #include <iostream>
+#include <string>
 #include <iomanip>
 #include <math.h> 
 using namespace std;
