@@ -90,8 +90,8 @@ int main() {
     // display equation and the corresponding answer for each
     cout << "Using the operator '+' in C++, the result of " << num1 << " + " << num2 << " is " << addition << endl; 
     cout << "Using the operator '/', the result of " << num1 << " / " << num2 << " is " << division << endl;
-    cout << "However, the result of " << showpoint << fixed << setprecision(1) << static_cast<float>(num1) << " / " << static_cast<float>(num2);
-    cout << " is about " << doubleDivision << endl;
+    cout << "However, the result of " << showpoint << fixed  << setprecision(1) << static_cast<float>(num1) << " / " << static_cast<float>(num2);
+    cout << " is about " << setprecision(2) << doubleDivision << endl;
     cout << "Thank you for testing my program!!" << endl;
 
     // display project information
