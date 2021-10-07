@@ -1,9 +1,9 @@
 /*
 * Class: CMSC 140 
 * Instructor: Proffesor Shah
-* Project/<2>
+* Classwork/<2>
 * Description: Print out some basic imformation about myself
-* Due Date: 09/06/2021
+* Due Date: 09/23/2021
 * I pledge that I have completed the programming assignment independently. 
 * I have not copied the code from a student or any source
 * I have not given my code to any student
@@ -11,8 +11,10 @@
 *
 * Psuedocode:
 *
-* 1. Get score information
-* 2. 
+* 1. Get student name
+* 2. Get all 5 student scores
+* 3. Calculate the total of all scores
+* 4. Display message of average score (total diveded by 5)
 */
 
 #include <iostream>
