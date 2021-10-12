@@ -10,7 +10,25 @@
 * Name: Armin Rezaiyan-Nojani 
 *
 * Psuedocode:
-
+1. Ask for user country
+2. Print Menu
+	(Temp, Distance, Weight, Quit)
+3. If Temp, 
+	Ask user for temp in celsius
+	Convert to fahrenheit
+	Print fahrenheit
+4. If Distance, 
+	Ask user for distance in kilometers
+	If < 0 - print “program doesn't convert neg nums”
+	Else 
+	Convert to miles
+	Print miles
+5. If Weight, 
+	Ask user for weight in kilograms
+	Convert to pounds
+	Print pounds
+6. If Quit, quit program
+7. Print out country name + “sounds fun
 */
 
 #include <iostream>
