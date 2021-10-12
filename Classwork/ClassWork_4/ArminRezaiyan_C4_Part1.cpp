@@ -83,7 +83,7 @@ int main() {
 
     float price = 0;
 
-    switch (choice) {
+    switch (numOfColors) {
         case 1: 
             price = 250;
             break;
@@ -108,7 +108,5 @@ int main() {
         price *= 1.1; 
     } 
 
-    cout << "The price is " << price; 
-
-
+    cout << "The price is " << price << endl; 
 }
