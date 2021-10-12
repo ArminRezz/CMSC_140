@@ -1,9 +1,9 @@
 /*
 * Class: CMSC 140 
 * Instructor: Proffesor Shah
-* Project/<1>
+* Project/<2>
 * Description: Express given age in many different units and demonstrate the operators in c++
-* Due Date: 09/06/2021
+* Due Date: 10/11/2021
 * I pledge that I have completed the programming assignment independently. 
 * I have not copied the code from a student or any source
 * I have not given my code to any student
@@ -23,12 +23,12 @@ int main() {
 
 
     const string PROGGRAMMER_NAME = "Armin Rezaiyan";
-    const int ASSIGNMENT_NUMBER = 1; 
+    const int ASSIGNMENT_NUMBER = 2; 
     const string DUE_DATE = "09/09/2021";
     string countryName; 
 
     cout << "Enter a country name: ";
-    cin >> countryName; 
+    getline(cin, countryName); 
 
     cout << "Converter Toolkit\n------------------" << endl; 
     cout << "1. Temperature Converter\n2. Distance Converter\n3. Weight Converter\n4. Quit" << endl; 
@@ -45,7 +45,7 @@ int main() {
             cin >> celsius; 
 
             float farenheit = (9.0/5) * celsius + 32; 
-            cout << "It is " << setprecision(2) << farenheit << " in farenheit." << endl;
+            cout << "It is " << static_cast<int>(farenheit) << " in farenheit." << endl;
 
             break;
         }
@@ -57,7 +57,7 @@ int main() {
             if (kilometers < 0) {
                 cout << "!!! program does not convert negative distance !!!" << endl; 
             } else {
-                cout << "Distance in miles is " << kilometers * 0.6 << endl; 
+                cout << "Distance in miles is " << fixed << setprecision(2) << kilometers * 0.6 << endl; 
             }
 
             break;
@@ -66,7 +66,7 @@ int main() {
             float kilograms = 0.0; 
             cout << "Please enter weight in kilograms: ";
             cin >> kilograms; 
-            cout << "Weight in pounds is " << kilograms * 2.2 << "." << endl; 
+            cout << "Weight in pounds is " << fixed << setprecision(1) << kilograms * 2.2 << "." << endl; 
             break;
         }
         case 4: {
