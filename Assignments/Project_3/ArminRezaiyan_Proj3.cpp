@@ -19,6 +19,9 @@ using namespace std;
 
 int main() {
 
+    const SINGLE_RATE =  
+
+
 
     return 0;
 }
