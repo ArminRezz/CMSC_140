@@ -9,6 +9,8 @@
 * I have not given my code to any student
 * Name: Armin Rezaiyan-Nojani 
 *
+* Psuedocode: 
+*
 */
 
 #include <iostream>
@@ -29,9 +31,9 @@ int main() {
     const int MAX_ROOMS = 30;
 
     string typeOfRoom[4] = {"SINGLE", "DOUBLE", "KING", "SUITE"};
-    int numOfFloors = 0; 
     int roomsPerFloor[4]; 
     int occupiedRoomsPerFloor[4]; 
+    int numOfFloors = 0; 
     string location;
 
     cout << "Enter location of hotel: " << endl;
@@ -73,17 +75,11 @@ int main() {
     cout << setw(20) << right << "BlueMont Hotel located in " << location << endl; 
     cout << "- - - - - - - - - -  - - - - - - - - - -  - - - - - - - - - -  - - - - - - - - - -" << endl; 
     cout << "- - - - - - - - - -  - - - - - - - - - -  - - - - - - - - - -  - - - - - - - - - -" << endl; 
-
     cout << setw(20) << right << "Today's Room Rates(US$/night)" << endl;
     cout << setw(10) << right << "Single Room" << setw(10) << "Double Room" <<  setw(10) << "King Room" << setw(10) << "Suite Room" << endl; 
-    cout << setw(10) << right << "Single Room" << setw(10) << "Double Room" <<  setw(10) << "King Room" << setw(10) << "Suite Room" << endl; 
-
+    cout << setw(10) << right << SINGLE_RATE << setw(10) << DOUBLE_RATE <<  setw(10) << KING_RATE << setw(10) << SUITE_RATE << endl; 
     cout << "- - - - - - - - - -  - - - - - - - - - -  - - - - - - - - - -  - - - - - - - - - -" << endl; 
-    cout << "- - - - - - - - - -  - - - - - - - - - -  - - - - - - - - - -  - - - - - - - - - -" << endl; 
-
-    cout <<  
-
-
+    cout << "- - - - - - - - - -  - - - - - - - - - -  - - - - - - - - - -  - - - - - - - - - -" << endl;
 
     return 0;
 }

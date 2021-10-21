@@ -49,7 +49,7 @@ int main() {
     // read and display
     string line;
     ifstream readfile("list.txt");
-    if (readfile.is_open()) {
+    if (readfile) {
 
         getline(readfile, line); 
         cout << setw(18) << left << "Name: " << line << endl; 
