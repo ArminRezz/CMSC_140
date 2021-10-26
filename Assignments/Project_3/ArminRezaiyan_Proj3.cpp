@@ -10,7 +10,22 @@
 * Name: Armin Rezaiyan-Nojani 
 *
 * Psuedocode: 
-*
+* 1. Declare constants and important variables
+* 2. Read location of hotel
+* 3. do (ask user for number of floors)
+*    while (num of floors is not in range 1-5)
+* 4. for (number of floors) 
+        do (ask user for num of rooms on floor)
+        while (num of rooms is not in range 1-30)
+
+        do (ask user for num of occupied rooms - by type) 
+        while (occupied rooms greater than number of rooms)
+
+        check if current floor is min floor and assign minfloor a value if so
+* 5. Calculate Hotel Income, Total # of Rooms, occupied Roomsl, Unoccupied Rooms, and Occupancy Rate
+* 6. Print all the information in orderly format
+* 7. if occupancy rate is less than 60, print message to improve
+* 8. Display proggramer info
 */
 
 #include <iostream>
