@@ -31,11 +31,11 @@
 #include <iostream>
 #include <string>
 #include <iomanip>
-#include <math.h> 
 using namespace std;
 
 int main() {
 
+    // declaring all proggram variables and constants
     const string PROGGRAMMER_NAME = "Armin Rezaiyan";
     const int ASSIGNMENT_NUMBER = 3; 
     const string DUE_DATE = "10/29/2021";
@@ -48,25 +48,30 @@ int main() {
     const int MIN_ROOMS = 1;
     const int MAX_ROOMS = 30;
 
-    int roomsPerFloor[4]; 
+    int roomsOnFloor = 0; 
+    int totalRooms = 0; 
+    int minRooms = 0; 
+    int floorWithMinRooms = 0; 
     int numOfFloors = 0; 
-    double hotelIncome = 0.0; 
     int totalOccupiedRooms = 0; 
     int totalUnoccupiedRooms = 0;
-    int floorWithMinRooms = 0; 
+
+    double hotelIncome = 0.0; 
     double rateOfOccupancy = 0.0; 
-    int min = 0; 
-    int totalRooms = 0; 
+    
     string location;
 
-    cout << "Enter location of hotel: " << endl;
+    cout << "Enter the location of the hotel chain: " << endl;
     getline(cin, location);
 
     
     // get the total number of floors
     do { 
-        cout << "Enter number of floors: " << endl;
+        cout << "\nEnter total number of floors in the hotel: " << endl;
         cin >> numOfFloors; 
+        if (numOfFloors < MIN_FLOORS || numOfFloors > MAX_FLOORS) {
+            cout << "Number of floors should be between 1 and 5! Try Again!" << endl; 
+        }
     } while (numOfFloors < MIN_FLOORS || numOfFloors > MAX_FLOORS);
 
     // get rooms per floor and type of rooms per floor for each floor
@@ -75,18 +80,19 @@ int main() {
         // get number of rooms on given floor
         do {
             cout << "Enter number of rooms on floor #" << x << ": " << endl; 
-            cin >> roomsPerFloor[x-1]; 
+            cin >> roomsOnFloor; 
 
-            if (roomsPerFloor[x-1] < MIN_ROOMS || roomsPerFloor[x-1] > MAX_ROOMS) {
+             if (roomsOnFloor < MIN_ROOMS || roomsOnFloor > MAX_ROOMS) {
                 cout << "Number of rooms should be between 1 and 30! Try Again!\n" << endl; 
             } 
-        } while (roomsPerFloor[x-1] < MIN_ROOMS || roomsPerFloor[x-1] > MAX_ROOMS);
 
-        // get number of each type of room from each floor
+        } while (roomsOnFloor < MIN_ROOMS || roomsOnFloor > MAX_ROOMS);
+
+        // get number of occupied rooms per floor by type  
         int occupiedRooms = 0; 
         do {
             int single = 0, doubleCnt = 0, king = 0, suite = 0; 
-            occupiedRooms = 0; 
+            occupiedRooms = 0;
 
             cout << "How many single rooms are occupied on floor #" << x << ": " << endl; 
             cin >> single;
@@ -98,20 +104,21 @@ int main() {
             cin >> suite;
 
             occupiedRooms += single + doubleCnt + king + suite; 
-            if (occupiedRooms > roomsPerFloor[x-1]) {
+            if (occupiedRooms > roomsOnFloor) {
                 cout << "Total number of occupied rooms exceeds the number of available rooms on this floor! Try Again!" << endl; 
             } else {
                 totalOccupiedRooms += occupiedRooms;
                 hotelIncome += (single * SINGLE_RATE) + (doubleCnt * DOUBLE_RATE) + (king * KING_RATE) + (suite * SUITE_RATE); 
             }
         
-        } while (occupiedRooms > roomsPerFloor[x-1]);
+        } while (occupiedRooms > roomsOnFloor);
 
-        // change min floor value if needed, add to totalRooms
-        if (roomsPerFloor[x-1] < min) { 
-            floorWithMinRooms = x; 
+        // update floor with least rooms
+        if (roomsOnFloor < minRooms || x == 0) {  
+            floorWithMinRooms = x;
+            minRooms = roomsOnFloor;
         }
-        totalRooms += roomsPerFloor[x-1];
+        totalRooms += roomsOnFloor;
     }
 
     cout << "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -" << endl;
@@ -122,14 +129,16 @@ int main() {
     cout << setw(20) << right << SINGLE_RATE << setw(20) << DOUBLE_RATE <<  setw(20) << KING_RATE << setw(20) << SUITE_RATE << endl; 
     cout << "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -" << endl;
 
+    // calculate total occupancy and rate of Occupancy
     totalUnoccupiedRooms = totalRooms - totalOccupiedRooms;
     rateOfOccupancy = (static_cast<float>(totalOccupiedRooms) / totalRooms) * 100;
 
-    cout << setw(25) << right << "Hotel Income: " << hotelIncome << endl;
-    cout << setw(25) << right << "Total # of Rooms: " << totalRooms << endl;
-    cout << setw(25) << right << "Occupied Rooms: " << totalOccupiedRooms << endl;
-    cout << setw(25) << right << "Unoccupied Rooms: " << totalUnoccupiedRooms << endl;
-    cout << setw(25) << right << "Occupancy Rate: " << rateOfOccupancy << endl;
+    cout << setw(40) << right << "Hotel Income: " << setw(20) << showpoint << fixed << setprecision(2) << hotelIncome << endl;
+    cout << setw(40) << right << "Total # of Rooms: " << setw(20) << totalRooms << endl;
+    cout << setw(40) << right << "Occupied Rooms: " << setw(20) << totalOccupiedRooms << endl;
+    cout << setw(40) << right << "Unoccupied Rooms: " << setw(20) << totalUnoccupiedRooms << endl;
+    cout << setw(40) << right << "Occupancy Rate " << setw(20) << rateOfOccupancy << "%" << endl;
+    cout << "Floor #" << floorWithMinRooms << " with " << minRooms << " rooms is the floor with the least amount of rooms!" << endl;
 
     if (rateOfOccupancy < 60) {
         cout << "Your occupancy rate is less than 60%, improve your hotel!" << endl; 
