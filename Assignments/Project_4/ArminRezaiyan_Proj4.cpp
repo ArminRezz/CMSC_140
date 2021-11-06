@@ -10,15 +10,16 @@
 * Name: Armin Rezaiyan-Nojani 
 *
 * Psuedocode: 
-* 1. Create function NumOfEmployees (no parameters) 
+* 1. Create a global variable of type ofstream for the output file employeeAbsences.txt
+* 2. Create function NumOfEmployees (no parameters) 
         do 
             asks user for number of employees at company 
             if (num of employees is less than 1) 
                     print error message
         while (num of employees is less than 1)
         return number of employees (int value)
-* 2. Create function TotDaysAbsent (takes in number of employees)
-        for loop throuhg number of employees in the company 
+* 3. Create function TotDaysAbsent (takes in number of employees)
+        for loop through number of employees in the company 
             ask user for employee number 
             do 
                 ask user for number of days missed in year
@@ -27,15 +28,15 @@
             while(num of days missed is less than 0)
             write employee number and number of days missed to employeeAbsences.txt file
         return total number of days missed for all employees (int value)
-* 3. Create function AverageAbsent (number of employees, total num of days absent for all employees)
+* 4. Create function AverageAbsent (number of employees, total num of days absent for all employees)
         return total num of days absent / number of employees (double value)
-* 4. Read in user full name
-* 5. Create int value for num of employees, set equal to result of function NumOfEmployees
-* 6. Call function TotDaysAbsent passing in number of employees
-* 7. Create double average days absent 
+* 5. Read in user full name
+* 6. Create int value for num of employees, set equal to result of function NumOfEmployees
+* 7. Call function TotDaysAbsent passing in number of employees
+* 8. Create double average days absent 
      set equal to value of function AverageAbsent, pass in number of employees, total number of days absent
-* 8. Write to employeeAbsences.txt, number of employees, number of absent days, and average num of absent days 
-* 9. Write to employeeAbsences.txt full name of proggrammer, full name of user, due date
+* 9. Write to employeeAbsences.txt, number of employees, number of absent days, and average num of absent days 
+* 10. Write to employeeAbsences.txt full name of proggrammer, full name of user, due date
 */
 
 #include <iostream>
