@@ -1,8 +1,8 @@
 /*
 * Class: CMSC 140 
 * Instructor: Proffesor Shah
-* Classwork/<5>
-* Description: Print out some basic imformation about myself
+* Classwork/<6>
+* Description: addition and subtration of 2 user inputted numbers 
 * Due Date: 09/23/2021
 * I pledge that I have completed the programming assignment independently. 
 * I have not copied the code from a student or any source

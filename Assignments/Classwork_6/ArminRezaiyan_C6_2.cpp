@@ -1,8 +1,8 @@
 /*
 * Class: CMSC 140 
 * Instructor: Proffesor Shah
-* Classwork/<5>
-* Description: Print out some basic imformation about myself
+* Classwork/<6>
+* Description: Vending machine 
 * Due Date: 09/23/2021
 * I pledge that I have completed the programming assignment independently. 
 * I have not copied the code from a student or any source
@@ -31,9 +31,7 @@ float showMenu() {
         case 2: return 1.00; 
         case 3: return 2.00;
         case 4: return 1.50;
-        case 5: {
-            exit(1);
-        }
+        case 5: exit(0);
     }
     return 0;
 }
