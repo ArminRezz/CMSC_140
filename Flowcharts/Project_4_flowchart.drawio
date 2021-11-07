@@ -1,1 +1,254 @@
-<mxfile host="Electron" modified="2021-11-06T22:55:12.451Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/15.4.0 Chrome/91.0.4472.164 Electron/13.5.0 Safari/537.36" etag="puD9kgXV0nS9ao-0g5pi" version="15.4.0" type="device" pages="4"><diagram id="C5RBs43oDa-KdzZeNtuy" name="Main">5Vpbe6M2EP01fkw+7pjH+NJttrtJ2qR1+9RPNjJWViBWCNvsr68EAgzCsXNx2DovthhGQpqZc2YYe2COw+0nCuLVV+JDPDA0fzswJwPD0E1b519CkhWSoacVgoAiXyrVgnv0A0phqZYiHyYNRUYIZihuChckiuCCNWSAUrJpqi0Jbj41BgFUBPcLgFXpDPlsJU9huLX8V4iCVflk3fGKOyEoleVJkhXwyWZHZE4H5pgSwopRuB1DLIxX2mV2nc3wl2/Op8+/J9/Bn6PfHm7+uigW++U5U6ojUBixFy/9OIL08escjh5vNtl6bU09PL0YFkuvAU6lveRZWVYaEPrcnvKSULYiAYkAntbSESVp5EPxGI1f1TpfCIm5UOfCR8hYJoMDpIxw0YqFWN4tnike1PLZgQNLvYSkdAGfOKV0IAM0gOwJPbfyKocDJCFkNOPzKMSAoXVzc0DGZVDp1bbnA2n+Z7hCU1xxzzfMVH9gzLEj7L5ZIQbvY5CffcPh22XVNaQMbl9gV9UOchXTtIt1JCOU+NjU8Co5YrWDLEt7veHGScSWs9Ht8orOPz8k1Lv+N7nwPkQMl9y5E8Od1hj2GcO64ooxyGc9EDYBWXI1T4Q1DAfzI4zmlI8CMYpBkqAoEMtH/CNKw9vlNIwxySDPHYp6wi0gjpSkWAzg9xTgPK9wBRAKGETzJM6d0p66BhSBOXe5UGcA7+6qFTSc72MxjClZwCQ5DLg5WHwL8kC6TRlGETwxEA3XvWxC0TZVLBqarYLRPRUYDZXGzhGN7pFo1HuFo6vCkULARPAHmMxz0JBlwrgwFKfZCjQtkUBHy2VNh/SWeLRGtHtqsOvae2Ye40PEundkrGvdznvzUO92hdmH6eEWsb/FdM7DxdU/cjExnmx3LzJ58S7ueoUb5NQ7gkROrLDnepeepeuuY7maPRyazRLQaUGsCBa5Rsu11aZeTmxqyXcdIYYAFo4SRQTL71apvl1QtCKlLz4z7G4r7hKa/p6EZp0boe0nqiMIzeyT0NQ6SpbS7Vgen6o+PgCan7889prwMq0OeLkd8DpZcWx/CHiZKrz2vyz2BS/zmRnk0MviT5JCLLvvFKJ/jCB3jswhutVnlDv7ksgVD0UQwBf2Y8Zir5HfBYt9qYilNKp20kxJuzCT+/pfd2Xs4aXbRKXb0SI1LOPyPRsz+tk1Zva3P4/ApdMnLNVfXRrJxydpgYZnAaOvDKS1m5BOV51ldcS6fbJYV99jZhQxWBJO0eIaH66GDzWiD9Jfh9vaKmkCKV9auwEhVO/eURJQEIaQCh7uVJnkjDrJ+3r7yBJQzvsQ52sJfocUcVPzRVv37uobh3h1ibaw/L33tF3uZtdv2EWmRkeJU/UC377ZdHaNvyea10dU8q9tOb0O7Cqb/gGBX9YuJbwK7JwhPkytSb/VK+0u/dpv8wrAL+v/OxTNvPpfI+b0Pw==</diagram><diagram id="nAiYikdfLs8eUUpn4An1" name="NumOfEmployees  ">5VjbUtswEP0az7QP6fgWQx4DmLZcWoYwLfDCKLZsC2TJleUk5usrW3IUxyEECDAtL4l0tLqd3aPdxHD209lXBrLklIYQG7YZzgznwLDtgeuJzwooJeDZjgRihkIJWRoYoXuoQFOhBQph3jLklGKOsjYYUEJgwFsYYIxO22YRxe1dMxDDDjAKAO6iv1HIE4nu9k2Nf4MoTpqdLVONpKAxVkCegJBOFyDHN5x9RimXrXS2D3HFXcOLG5ORD8bRpBdeW9f07qy4snpyscOnTJlfgUHCn730XhSYx5fXN0eB79xGmf3j6tdtz5VLTwAuFF/qrrxsCISh4FN1KeMJjSkB2NfoHqMFCWG1jSl62uaE0kyAlgBvIeelCg5QcCqghKdYjco9q42WfPbIhZVdTgsWwDW3VA7kgMWQr7Fz5l4VaoA0hZyVYh6DGHA0aR8OqLiM53aae9FQ9D/BFWbHFSNxYF7FfEECjijpugZjIaPKBdMEcTjKQE3DVAh5FcETyDicPYPiLiVqFafRRtkW/VQrzfIUliyorFHf1km0rA8R0M6GAW2Zq933NhHtdHwxzO8EUOSQ1U959UmKdFx3aVRRlmaYllAkDLE2qdNCmgFSdpwoHuOsagpKAcYQ05iBVDCfQYbE6cWKS2NneuAxtURoBptM9qbqcTaVT/+15PNfquXFKlBTzygiXLvPNZcfv6VXTcpTzdKeGTIGygWzrDLIH96nv7SP7S0l+kfsm3PpwJAn0GEy5+QFkdMV+5U/WhlNJ2AsSsxWBACMYiLagXB4rdBKbEgUcUM1kKIwlMEGc3QPxvV6Vbgp8sTi/T2jf7BOrarCVJN1XbcYZ2tU8aCMe+aXnYE3aHMue8+NsMaERlEOubEs6234q/8hEqW1aelnue+ZKa1u8WfYHuZVMqJ1RGi3eH8K2gz08prYoTAYZDM9Jlpx9S2S68/I1zlVLjlmzbj4BmmV/cg4zxb7WI6awkeHzTRxM3mYZu5SuLCEpuMif8dqtMmLzUNpd/PpYEU63d1CNbozOp+x0+Lo8ubcu+D+cVJefO99jGL0xdLZLL26zmbpdWsvZPe3MYO8YGRt0Qr4YtFqfpJXqtf43HH+e+nEbTPrrKo77RVC8V5LKHaHap+E/9QvX3fj2v3pHIqu/pdJhrf+q87x/wI=</diagram><diagram id="VK-apPZ0s9D9q9gK9ToX" name="TotDaysAbsent">5Vrdd6I4FP9rPGf2oXP4EKyP2tqZ7mm3PXVnnfZlT5SIaYGwIVTpXz8JBIEQrdYPus5LS26Sm3Dv/d0vbJkX/uIbAeHsFjvQaxmas2iZly3D6LZt9pcTkoxgG2ZGcAlyMpJeEIboDQqiJqgxcmBUWUgx9igKq8QJDgI4oRUaIATPq8um2KueGgIX1gjDCfDq1BFy6CyjnltaQf8OkTvLT9Y1MeODfLEgRDPg4HmJZA5a5gXBmGZP/uICelx2uVyup//8+XDnPyUT+BxH7o/2wqBnGbOrbbYsX4HAgH6Ydd8aXIOnoINesJtYjjG6G43EFu0VeLGQl3hXmuQChA6TpxhiQmfYxQHwBgW1T3AcOJAfo7FRseYG45ARdUZ8hpQmwjhATDEjzajviVm4QPRn6fmRs/pqidHlQnBOB4kYZPfkl5P0/I6QxLoIx2QittLnm8fQ7Zkvf5nfzXHYv5/Mr3LJUEBcSNdI0FxaAkMQxD6kJGH7CPQARa/VywFhy+5y3XLrPUbs2oYmYNc+F+cL1Bn5OGeR3V/sKrTeIwQkpWUhXxCtOcdSnyPYsYeMYz4qvWNBSg1tC6MzPoXR7dGAVhvGBgbU2dGASrraXhVmTRW96IUR4giS1Nvyv0Hsj9MhnvJAAJKIu0cURUz8jH/AzQcCUlMic5ghf2QiBZ4HPewS4DPJh5Agdn3GUpq7Lyb68xmicBiCVMZzFpqq2puiBcyjTaHNV0goXHxAn3X5Cy6mXQWIaYrxvAgmeg7OWSmQWNaBVNY+RbDsCoLNvJupSV40A+fOXtTWq+e0O1Iofmd9fq+Del2rBvXHwVBpSzdgzHLAiv6Bh9yAPU+YulN4cqQhlmX1xISPHCczNRihNzBO+XFjE7JjzK1+y7pcB1WRAorNReJVtrLVkFgJ4TPta6drdysSFyd+1L7yJXg6jSBtyZDeTlvt2+Fz50Z7c+8G48Xfg6dvxr8/zs4bycMCdumfRfLFh4/luSIVS0cHyMVWe4dqKFUKzd6HF9k1hbLM9eDvaNa69YcBf0eRctke5YEUp5crDM3+L8b5xFmUmkqPLeiGi2KOPbn8P88FbkUikLEbk3yO/Qc+j9rBOArLYy+bZT7PvMq3sZfKLpLvlYyfzLA/jqP384JD5QFtSWttRR7QVaQBct7+kTRAaet6PXU7xcSguyH0dWNH7O+Uk3VruhiyG3NcTeNgQhEO6vj4wlNfP0uv76YDP/RwAmH0R12LnofCCDZn+2ZHKhIVKXD7QLavrM3138L0dUULYnWr4gimrwbe76sMtTyOpY2119wh0OuGKtKjFke9FMGrnut/E8tld6Yq6VX+TJfLx705tLrWHiBwFBmUFEOgkH3GP9WQtCLv3Zxga8aQe5eWQo+GQo/2wXKyRqq2Pbo+5Vvt6tDUZdASYXlF3pW0sqI3s68Cuw454HAI6dzJY767psumSg/pW4BuN27n9qnF/NXthE1CvtVkAlbXxYgwO+XbgikmPlCXH3JwSW0ex3SKmHJOMVzYksNZVjVlGJnHhJGhStZOD0abp87dJnGkSJ0fII1JkAYECrxLkES9cQTTKPYlC2bp4nrJ3lCkkAKFqkd15EDRyMeqVW3sonF98Db2mh7VBp+Ej1ZDrr1mCQjXAaIIeFzgPKxQFSQ+JQSaR4Cq836CPt7a0MfvpZjY9hON/MklrzX29cllrUgUrZgoBEGeh2VVR/lDSlp+yJV/HW/q3gC7apn7Z4Gl3a5qwGi+hqn37AcBl/4pdOylDpel6ozsqWPPhsVPIDPsFL8jNQe/AA==</diagram><diagram id="V7cFmbgTRi7rgxLMxmJE" name="AverageAbsent">5VZRb9owEP41kbqHSo5TEDy2NGzamDZBJR4rg48km5NLzZkk+/VziCGkYZvoA5u0l8j+cr6z77vvbC+YpOV7LfL4M0pQHmey9IJHj/Px3dB+a6BqgCEPGiDSiWwgvwUWyQ9wIHOoSSRsO4aEqCjJu+AaswzW1MGE1lh0zTaoulFzEUEPWKyF6qPLRFLcoKMBa/EPkETxIbLP3J9UHIwdsI2FxOIECkIvmGhEakZpOQFV5+6Ql9kzG31KxXxx+7SU4ffREszLbeNsesmS4xE0ZPRm15P50/O0eJmXpRnhQM5n9x+VW8J2QhmXL3dWqg4JBGnz6aaoKcYIM6HCFn3QaDIJdRhmZ63NDDG3oG/Bb0BUueIQhtBCMaXK/W1i1oFecfaHAzu7LRq9ht+c0j+yZascMAXSlV2nQQlKdt2gwtVbdLQ7Lv2Kid0OZ04ad4dKccrwA9Z1QUJHQG5Vy4wdnGyjhfZ8XcCd3+NuYSPWG9yYbE0JZh4fKpu/h5W2o6ge3dicitSaZCb9sgnTXGEFVp580rclJKEeRbW9X20tD+/6laGUVXFdAUWcECxysWehsH3kHL870ATlGxjuM+e8BPwVA25atEL3hw6LT0Q+ZL/musPSpZSM/gs5ja8iJ35lOY173Gkgo7P9hdVRgleX3fSMiJig/U2W5iKrM3Ij0awsp85rX0F/STd8MDjfuU6Ew8fXFI7fv4jCTHZa2b/efPiZJJ7tPoPLk2in7TujKfj2sRaEPwE=</diagram></mxfile>
+<mxfile host="65bd71144e" pages="4">
+    <diagram id="C5RBs43oDa-KdzZeNtuy" name="Main">
+        <mxGraphModel dx="670" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="WIyWlLk6GJQsqaUBKTNV-0"/>
+                <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0"/>
+                <mxCell id="jBerjMbeBjNwyvv4E9lE-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jBerjMbeBjNwyvv4E9lE-0" target="jBerjMbeBjNwyvv4E9lE-7" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="jBerjMbeBjNwyvv4E9lE-0" value="Start" style="ellipse;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="335" y="20" width="90" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="CsntfWBOfArbJTsr9I_s-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jBerjMbeBjNwyvv4E9lE-1" target="CsntfWBOfArbJTsr9I_s-8" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="jBerjMbeBjNwyvv4E9lE-1" value="Call TotDaysAbsent&lt;br&gt;passing in numOfEmployees&lt;br&gt;set result equal to&amp;nbsp;&lt;br&gt;variable totalDaysAbsent" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="277.5" y="530" width="205" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="CsntfWBOfArbJTsr9I_s-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jBerjMbeBjNwyvv4E9lE-7" target="CsntfWBOfArbJTsr9I_s-18" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="jBerjMbeBjNwyvv4E9lE-7" value="Create global ofstream txt file" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="330" y="90" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="CsntfWBOfArbJTsr9I_s-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jBerjMbeBjNwyvv4E9lE-9" target="CsntfWBOfArbJTsr9I_s-0" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="CsntfWBOfArbJTsr9I_s-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jBerjMbeBjNwyvv4E9lE-9" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="379.9411764705883" y="260" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="jBerjMbeBjNwyvv4E9lE-9" value="Initialize int variable numOfEmployees" style="whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="325" y="260" width="110" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="CsntfWBOfArbJTsr9I_s-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="CsntfWBOfArbJTsr9I_s-0" target="CsntfWBOfArbJTsr9I_s-3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="CsntfWBOfArbJTsr9I_s-0" value="Call numOfEmployees,&lt;br&gt;set result equal to&amp;nbsp;&lt;br&gt;variable numOfEmployees" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="295" y="340" width="170" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="CsntfWBOfArbJTsr9I_s-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="CsntfWBOfArbJTsr9I_s-3" target="jBerjMbeBjNwyvv4E9lE-1" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="CsntfWBOfArbJTsr9I_s-3" value="Initialize int variable totalDaysAbsent" style="whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="325" y="450" width="110" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="CsntfWBOfArbJTsr9I_s-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="CsntfWBOfArbJTsr9I_s-6" target="CsntfWBOfArbJTsr9I_s-14" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="CsntfWBOfArbJTsr9I_s-6" value="Call AverageAbsent&lt;br&gt;passing in numOfEmployees, and totalDaysAbsent&lt;br&gt;set return value equal to variable AverageDaysAbsent" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="258.75" y="720" width="242.5" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="CsntfWBOfArbJTsr9I_s-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="CsntfWBOfArbJTsr9I_s-8" target="CsntfWBOfArbJTsr9I_s-6" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="CsntfWBOfArbJTsr9I_s-8" value="Initialize double variable AverageDaysAbsent" style="whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="307.5" y="640" width="145" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="CsntfWBOfArbJTsr9I_s-14" value="Write to file,&amp;nbsp;&lt;br&gt;numOfEmployees&lt;br&gt;totalDaysAbsent&lt;br&gt;AverageDaysAbsent&lt;br&gt;users Name&lt;br&gt;Programmer name&lt;br&gt;Due Date" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="270" y="820" width="220" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="CsntfWBOfArbJTsr9I_s-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="CsntfWBOfArbJTsr9I_s-18" target="jBerjMbeBjNwyvv4E9lE-9" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="CsntfWBOfArbJTsr9I_s-18" value="Read in users name" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="305" y="170" width="150" height="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="nAiYikdfLs8eUUpn4An1" name="NumOfEmployees  ">
+        <mxGraphModel dx="670" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="4gnSEabfv-dZ1ZokPuY1-0"/>
+                <mxCell id="4gnSEabfv-dZ1ZokPuY1-1" parent="4gnSEabfv-dZ1ZokPuY1-0"/>
+                <mxCell id="Bfc0KXZ_JcE3jfp2NYVj-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="4gnSEabfv-dZ1ZokPuY1-1" source="Bfc0KXZ_JcE3jfp2NYVj-0" target="Bfc0KXZ_JcE3jfp2NYVj-3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Bfc0KXZ_JcE3jfp2NYVj-0" value="Start function" style="ellipse;whiteSpace=wrap;html=1;" parent="4gnSEabfv-dZ1ZokPuY1-1" vertex="1">
+                    <mxGeometry x="320" y="10" width="160" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="Bfc0KXZ_JcE3jfp2NYVj-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="4gnSEabfv-dZ1ZokPuY1-1" source="Bfc0KXZ_JcE3jfp2NYVj-3" target="Bfc0KXZ_JcE3jfp2NYVj-10" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Bfc0KXZ_JcE3jfp2NYVj-3" value="Ask user for number of employees in company" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="4gnSEabfv-dZ1ZokPuY1-1" vertex="1">
+                    <mxGeometry x="320" y="130" width="160" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="Bfc0KXZ_JcE3jfp2NYVj-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="4gnSEabfv-dZ1ZokPuY1-1" source="Bfc0KXZ_JcE3jfp2NYVj-10" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="400" y="100" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="500" y="260"/>
+                            <mxPoint x="500" y="100"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="Bfc0KXZ_JcE3jfp2NYVj-13" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Bfc0KXZ_JcE3jfp2NYVj-12" vertex="1" connectable="0">
+                    <mxGeometry x="-0.7969" y="1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="Bfc0KXZ_JcE3jfp2NYVj-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="4gnSEabfv-dZ1ZokPuY1-1" source="Bfc0KXZ_JcE3jfp2NYVj-10" target="Bfc0KXZ_JcE3jfp2NYVj-14" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Bfc0KXZ_JcE3jfp2NYVj-10" value="&lt;font style=&quot;font-size: 9px&quot;&gt;numOfEmployees&lt;br&gt;&amp;nbsp;&amp;lt; 1?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="4gnSEabfv-dZ1ZokPuY1-1" vertex="1">
+                    <mxGeometry x="355" y="220" width="90" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="7SRxrMuJX_R6TtEKhyTI-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="4gnSEabfv-dZ1ZokPuY1-1" source="Bfc0KXZ_JcE3jfp2NYVj-14" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="400" y="430" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="Bfc0KXZ_JcE3jfp2NYVj-14" value="return number of employees at company (int value)" style="whiteSpace=wrap;html=1;" parent="4gnSEabfv-dZ1ZokPuY1-1" vertex="1">
+                    <mxGeometry x="340" y="330" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7SRxrMuJX_R6TtEKhyTI-2" value="End function" style="ellipse;whiteSpace=wrap;html=1;" parent="4gnSEabfv-dZ1ZokPuY1-1" vertex="1">
+                    <mxGeometry x="320" y="430" width="160" height="50" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="VK-apPZ0s9D9q9gK9ToX" name="TotDaysAbsent">
+        <mxGraphModel dx="670" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="IfVJROmZycejusgU4x2t-0"/>
+                <mxCell id="IfVJROmZycejusgU4x2t-1" parent="IfVJROmZycejusgU4x2t-0"/>
+                <mxCell id="B5EIaZn7ikogy5d2WOWW-0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="IfVJROmZycejusgU4x2t-1" source="tjLYpgA3kN3H3bpBPcwF-0" target="B5EIaZn7ikogy5d2WOWW-3" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="480" y="280" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="450" y="280"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="B5EIaZn7ikogy5d2WOWW-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="IfVJROmZycejusgU4x2t-1" source="B5EIaZn7ikogy5d2WOWW-3" target="B5EIaZn7ikogy5d2WOWW-7" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="B5EIaZn7ikogy5d2WOWW-3" value="Ask user for number of days missed in year" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="IfVJROmZycejusgU4x2t-1" vertex="1">
+                    <mxGeometry x="360" y="330" width="180" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="B5EIaZn7ikogy5d2WOWW-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="IfVJROmZycejusgU4x2t-1" source="B5EIaZn7ikogy5d2WOWW-7" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="450" y="300" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="610" y="470"/>
+                            <mxPoint x="610" y="300"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="B5EIaZn7ikogy5d2WOWW-5" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="B5EIaZn7ikogy5d2WOWW-4" vertex="1" connectable="0">
+                    <mxGeometry x="-0.7969" y="1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4MSj7L0zgOEbxTEZG2_U-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="IfVJROmZycejusgU4x2t-1" source="B5EIaZn7ikogy5d2WOWW-7" target="4MSj7L0zgOEbxTEZG2_U-6" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="450" y="530"/>
+                            <mxPoint x="705" y="530"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="B5EIaZn7ikogy5d2WOWW-7" value="&lt;font style=&quot;font-size: 9px&quot;&gt;daysMissed&lt;br&gt;&amp;nbsp;&amp;lt; 0?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="IfVJROmZycejusgU4x2t-1" vertex="1">
+                    <mxGeometry x="405" y="430" width="90" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="4MSj7L0zgOEbxTEZG2_U-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="IfVJROmZycejusgU4x2t-1" source="B5EIaZn7ikogy5d2WOWW-9" target="4MSj7L0zgOEbxTEZG2_U-12" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="B5EIaZn7ikogy5d2WOWW-9" value="Start function&lt;br&gt;(param numOfEmployees)" style="ellipse;whiteSpace=wrap;html=1;" parent="IfVJROmZycejusgU4x2t-1" vertex="1">
+                    <mxGeometry x="370" y="20" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="tjLYpgA3kN3H3bpBPcwF-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="IfVJROmZycejusgU4x2t-1" source="B5EIaZn7ikogy5d2WOWW-10" target="tjLYpgA3kN3H3bpBPcwF-0" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4MSj7L0zgOEbxTEZG2_U-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="IfVJROmZycejusgU4x2t-1" source="B5EIaZn7ikogy5d2WOWW-10" target="4MSj7L0zgOEbxTEZG2_U-10" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="B5EIaZn7ikogy5d2WOWW-10" value="&lt;font style=&quot;font-size: 12px&quot;&gt;i &amp;lt; numOfEmployees&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="IfVJROmZycejusgU4x2t-1" vertex="1">
+                    <mxGeometry x="70" y="230" width="140" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="tjLYpgA3kN3H3bpBPcwF-0" value="Read&amp;nbsp;&lt;br&gt;employee id &lt;br&gt;number" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="IfVJROmZycejusgU4x2t-1" vertex="1">
+                    <mxGeometry x="250" y="250" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4MSj7L0zgOEbxTEZG2_U-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="IfVJROmZycejusgU4x2t-1" source="4MSj7L0zgOEbxTEZG2_U-0" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="140" y="190" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4MSj7L0zgOEbxTEZG2_U-0" value="add 1 to i" style="whiteSpace=wrap;html=1;" parent="IfVJROmZycejusgU4x2t-1" vertex="1">
+                    <mxGeometry x="480" y="160" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4MSj7L0zgOEbxTEZG2_U-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="IfVJROmZycejusgU4x2t-1" source="4MSj7L0zgOEbxTEZG2_U-6" target="4MSj7L0zgOEbxTEZG2_U-15" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4MSj7L0zgOEbxTEZG2_U-6" value="Write information&lt;br&gt;&amp;nbsp;to outfile" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="IfVJROmZycejusgU4x2t-1" vertex="1">
+                    <mxGeometry x="640" y="370" width="130" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4MSj7L0zgOEbxTEZG2_U-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="IfVJROmZycejusgU4x2t-1" source="4MSj7L0zgOEbxTEZG2_U-10" target="4MSj7L0zgOEbxTEZG2_U-19" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4MSj7L0zgOEbxTEZG2_U-10" value="Return totalDaysAbsent (int value)" style="whiteSpace=wrap;html=1;" parent="IfVJROmZycejusgU4x2t-1" vertex="1">
+                    <mxGeometry x="80" y="430" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4MSj7L0zgOEbxTEZG2_U-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="IfVJROmZycejusgU4x2t-1" source="4MSj7L0zgOEbxTEZG2_U-12" target="B5EIaZn7ikogy5d2WOWW-10" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4MSj7L0zgOEbxTEZG2_U-12" value="Initialize int totalDaysAbsent" style="whiteSpace=wrap;html=1;" parent="IfVJROmZycejusgU4x2t-1" vertex="1">
+                    <mxGeometry x="80" y="30" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4MSj7L0zgOEbxTEZG2_U-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="IfVJROmZycejusgU4x2t-1" source="4MSj7L0zgOEbxTEZG2_U-15" target="4MSj7L0zgOEbxTEZG2_U-0" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="705" y="190"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4MSj7L0zgOEbxTEZG2_U-15" value="&lt;span&gt;add daysMissed to&amp;nbsp; totalDaysAbsent&amp;nbsp;&lt;/span&gt;" style="whiteSpace=wrap;html=1;" parent="IfVJROmZycejusgU4x2t-1" vertex="1">
+                    <mxGeometry x="645" y="260" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4MSj7L0zgOEbxTEZG2_U-19" value="End function&lt;br&gt;(param numOfEmployees)" style="ellipse;whiteSpace=wrap;html=1;" parent="IfVJROmZycejusgU4x2t-1" vertex="1">
+                    <mxGeometry x="70" y="550" width="140" height="80" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="V7cFmbgTRi7rgxLMxmJE" name="AverageAbsent">
+        <mxGraphModel dx="670" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="L_08KmaRS-TWdEk8Weuq-0"/>
+                <mxCell id="L_08KmaRS-TWdEk8Weuq-1" parent="L_08KmaRS-TWdEk8Weuq-0"/>
+                <mxCell id="CRT_FwqRxxu8o5dRLAJl-0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="L_08KmaRS-TWdEk8Weuq-1" source="CRT_FwqRxxu8o5dRLAJl-1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="400" y="130" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="CRT_FwqRxxu8o5dRLAJl-1" value="Start function&lt;br&gt;(param numOfEmployees,&lt;br&gt;totalDaysAbsent)" style="ellipse;whiteSpace=wrap;html=1;" parent="L_08KmaRS-TWdEk8Weuq-1" vertex="1">
+                    <mxGeometry x="320" y="10" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="CRT_FwqRxxu8o5dRLAJl-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="L_08KmaRS-TWdEk8Weuq-1" source="CRT_FwqRxxu8o5dRLAJl-9" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="400" y="230" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="CRT_FwqRxxu8o5dRLAJl-9" value="return totalDaysAbsent / numOfEmployees at company (double value)" style="whiteSpace=wrap;html=1;" parent="L_08KmaRS-TWdEk8Weuq-1" vertex="1">
+                    <mxGeometry x="255" y="130" width="290" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="CRT_FwqRxxu8o5dRLAJl-10" value="End function" style="ellipse;whiteSpace=wrap;html=1;" parent="L_08KmaRS-TWdEk8Weuq-1" vertex="1">
+                    <mxGeometry x="320" y="230" width="160" height="50" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

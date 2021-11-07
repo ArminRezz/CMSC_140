@@ -42,19 +42,88 @@
 #include <iostream>
 #include <string>
 #include <iomanip>
+#include <fstream>
 using namespace std;
+
+// create global outfile
+ofstream outFile; 
+
+// gets num of employees in company from user, returns num of employees
+int NumOfEmployees() {
+    int numOfEmployees = 0; 
+    bool invalid; 
+    do {
+        cout << "Enter number of employees in company: " << endl; 
+        cin >> numOfEmployees; 
+        invalid = numOfEmployees < 1; 
+
+        if (invalid) 
+            cout << "That number of employees is invalid! Please try again." << endl;
+    } while(invalid);
+
+    return numOfEmployees; 
+}
+
+// gets employee id num and total days absent for each employee, 
+// writes info to outfile, returns total days missed 
+int TotDaysAbsent(int numOfEmployees) {
+    outFile.open("employeeAbsences.txt", ios::app); 
+    outFile << left << setw(18) << "Employee ID" << left << setw(18) << "Days Absent" << endl;
+    int totalDaysAbsent = 0;
+
+    for (int i = 0; i < numOfEmployees; i++) {
+        int id = 0;
+        cout << "Enter employee id number: " << endl; 
+        cin >> id; 
+
+        int daysAbsent = 0; 
+        bool invalid; 
+        do {
+            cout << "Enter number of absent days for this employee: " << endl; 
+            cin >> daysAbsent; 
+            bool invalid = daysAbsent < 0; 
+
+            if (invalid) {
+                cout << "Absent days cannot be negative! Please try again." << endl;
+            }
+            else {
+                outFile << right << setw(8) << id << right << setw(8) << daysAbsent << endl;
+                totalDaysAbsent += daysAbsent; 
+            }
+        } while(invalid);
+    }
+    outFile.close();
+
+    return totalDaysAbsent;
+}
+
+// calculates average number of days missed for all employees
+float AverageAbsent(int numOfEmployees, int totalDaysMissed) {
+    return static_cast<float>(totalDaysMissed) / numOfEmployees; 
+}
 
 int main() {
 
     // declaring all proggram variables and constants
     const string PROGGRAMMER_NAME = "Armin Rezaiyan";
-    const int ASSIGNMENT_NUMBER = 3; 
-    const string DUE_DATE = "10/29/2021";
+    const string DUE_DATE = "11/14/2021";
 
-    // display project information
-    cout << "PROGRAMMER: " << PROGGRAMMER_NAME << endl;
-    cout << "CMSC140 Common Project " << ASSIGNMENT_NUMBER << endl;
-    cout << "Due Date: " << DUE_DATE << endl;
+    int numOfEmployees = NumOfEmployees();
+    int totalDaysAbsent = TotDaysAbsent(numOfEmployees);
+    double averageAbsences = AverageAbsent(numOfEmployees, totalDaysAbsent);
+    cout << "What is your full name: " << endl;
+    string userFullName;
+    getline(cin, userFullName);
+    cin.ignore();
+
+    // write more information to outFile
+    outFile.open("employeeAbsences.txt", ios::app); 
+    outFile << "The " << numOfEmployees << " were absent a total of " << totalDaysAbsent << " days." << endl; 
+    outFile << "The average number of days absent was " << fixed << setprecision(1) << averageAbsences << " days." << endl; 
+    outFile << "PROGRAMMER: " << PROGGRAMMER_NAME << endl;
+    outFile << "Due Date: " << DUE_DATE << endl;
+    outFile << "Users name: " << userFullName << endl; 
+    outFile.close();
     
     return 0;
 }
