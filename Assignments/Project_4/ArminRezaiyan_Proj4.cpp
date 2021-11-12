@@ -1,8 +1,8 @@
 /*
 * Class: CMSC 140 
 * Instructor: Proffesor Shah
-* Project/<2>
-* Description: Express given age in many different units and demonstrate the operators in c++
+* Project/<4>
+* Description: Store employee absences and give stats about employee absences 
 * Due Date: 10/11/2021
 * I pledge that I have completed the programming assignment independently. 
 * I have not copied the code from a student or any source
@@ -67,7 +67,7 @@ int NumOfEmployees() {
 // gets employee id num and total days absent for each employee, 
 // writes info to outfile, returns total days missed 
 int TotDaysAbsent(int numOfEmployees) {
-    outFile.open("employeeAbsences.txt", ios::app); 
+    outFile.open("employeeAbsences.txt"); 
     outFile << left << setw(18) << "Employee ID" << left << setw(18) << "Days Absent" << endl;
     int totalDaysAbsent = 0;
 
@@ -87,7 +87,7 @@ int TotDaysAbsent(int numOfEmployees) {
                 cout << "Absent days cannot be negative! Please try again." << endl;
             }
             else {
-                outFile << right << setw(8) << id << right << setw(8) << daysAbsent << endl;
+                outFile << right << setw(8) << id << right << setw(16) << daysAbsent << endl;
                 totalDaysAbsent += daysAbsent; 
             }
         } while(invalid);
@@ -111,18 +111,14 @@ int main() {
     int numOfEmployees = NumOfEmployees();
     int totalDaysAbsent = TotDaysAbsent(numOfEmployees);
     double averageAbsences = AverageAbsent(numOfEmployees, totalDaysAbsent);
-    cout << "What is your full name: " << endl;
-    string userFullName;
-    getline(cin, userFullName);
-    cin.ignore();
+    cout << "Programmer Name: Armin Reziayan" << endl;
 
     // write more information to outFile
     outFile.open("employeeAbsences.txt", ios::app); 
     outFile << "The " << numOfEmployees << " were absent a total of " << totalDaysAbsent << " days." << endl; 
-    outFile << "The average number of days absent was " << fixed << setprecision(1) << averageAbsences << " days." << endl; 
+    outFile << "The average number of days absent was " << showpoint << fixed << setprecision(1) << averageAbsences << " days." << endl; 
     outFile << "PROGRAMMER: " << PROGGRAMMER_NAME << endl;
-    outFile << "Due Date: " << DUE_DATE << endl;
-    outFile << "Users name: " << userFullName << endl; 
+    outFile << "Due Date: " << DUE_DATE << endl; 
     outFile.close();
     
     return 0;

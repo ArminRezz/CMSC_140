@@ -1,12 +1,10 @@
 Employee ID       Days Absent       
-    2234       4
-    3334       2
-    5556      43
-    3332      34
-    4445      56
-    4443      32
-The 6 were absent a total of 171 days.
-The average number of days absent was 28.5 days.
+    1111               4
+    1112               5
+    1113               4
+    1114               3
+The 4 were absent a total of 16 days.
+The average number of days absent was 4.0 days.
 PROGRAMMER: Armin Rezaiyan
 Due Date: 11/14/2021
-Users name: 
+Programmer Name: Armin Reziayan

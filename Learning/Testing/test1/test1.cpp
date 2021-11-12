@@ -1,13 +1,11 @@
 #include <iostream>
 using namespace std;
+
+int absval(int num) {
+    return (num < 0) ? (num*=-1) : (num); 
+}
+
 int main()
 {
-
-    if(0) {
-        cout << "false";
-    }
-    else {
-        cout << "true";
-    }
-
+    cout << absval(-2) << endl;
 }
