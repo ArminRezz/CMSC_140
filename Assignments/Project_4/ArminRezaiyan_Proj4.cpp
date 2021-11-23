@@ -3,7 +3,7 @@
 * Instructor: Proffesor Shah
 * Project/<4>
 * Description: Store employee absences and give stats about employee absences 
-* Due Date: 10/11/2021
+* Due Date: 11/14/2021
 * I pledge that I have completed the programming assignment independently. 
 * I have not copied the code from a student or any source
 * I have not given my code to any student
@@ -77,20 +77,18 @@ int TotDaysAbsent(int numOfEmployees) {
         cin >> id; 
 
         int daysAbsent = 0; 
-        bool invalid; 
         do {
             cout << "Enter number of absent days for this employee: " << endl; 
             cin >> daysAbsent; 
-            bool invalid = daysAbsent < 0; 
 
-            if (invalid) {
+            if (daysAbsent < 0) {
                 cout << "Absent days cannot be negative! Please try again." << endl;
             }
             else {
                 outFile << right << setw(8) << id << right << setw(16) << daysAbsent << endl;
                 totalDaysAbsent += daysAbsent; 
             }
-        } while(invalid);
+        } while(daysAbsent < 0);
     }
     outFile.close();
 
