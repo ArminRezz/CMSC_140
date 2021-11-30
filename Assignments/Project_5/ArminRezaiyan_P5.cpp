@@ -1,8 +1,8 @@
 /*
 * Class: CMSC 140 
 * Instructor: Proffesor Shah
-* Project/<4>
-* Description: Store employee absences and give stats about employee absences 
+* Project/<5>
+* Description: Allows user to make square, determines if its magic square or not
 * Due Date: 11/14/2021
 * I pledge that I have completed the programming assignment independently. 
 * I have not copied the code from a student or any source
@@ -10,33 +10,48 @@
 * Name: Armin Rezaiyan-Nojani 
 *
 * Psuedocode: 
-* 1. Create a global variable of type ofstream for the output file employeeAbsences.txt
-* 2. Create function NumOfEmployees (no parameters) 
-        do 
-            asks user for number of employees at company 
-            if (num of employees is less than 1) 
-                    print error message
-        while (num of employees is less than 1)
-        return number of employees (int value)
-* 3. Create function TotDaysAbsent (takes in number of employees)
-        for loop through number of employees in the company 
-            ask user for employee number 
-            do 
-                ask user for number of days missed in year
-                if (num of days is less than 0) 
-                    print error message
-            while(num of days missed is less than 0)
-            write employee number and number of days missed to employeeAbsences.txt file
-        return total number of days missed for all employees (int value)
-* 4. Create function AverageAbsent (number of employees, total num of days absent for all employees)
-        return total num of days absent / number of employees (double value)
-* 5. Read in user full name
-* 6. Create int value for num of employees, set equal to result of function NumOfEmployees
-* 7. Call function TotDaysAbsent passing in number of employees
-* 8. Create double average days absent 
-     set equal to value of function AverageAbsent, pass in number of employees, total number of days absent
-* 9. Write to employeeAbsences.txt, number of employees, number of absent days, and average num of absent days 
-* 10. Write to employeeAbsences.txt full name of proggrammer, full name of user, due date
+* 1. Create function isMagicSquare with parametersint arr1[], int arr2[], int arr3[], int size)
+    - create array of booleans with size 5
+    - fill array with return values from checkRange, checkUnique, checkRowSum, checkColSum, checkDiagSum functions
+    - return true if all elements in array are true, if not, return false
+* 2. Create function checkRange with parameters(int arr1[], int arrayRow2[], int arrayRow3[], int size, int min, int max)
+    - for through size --> 
+         if value of arr1, arr2, or arr3 is less than min or greater than max return false
+* 3. Create function checkUnique with parameters(int arr1[], int arr2[], int arr3[], int size)
+    - if numbers in each row are equal
+        for through size
+            for through each row and compare with other rows
+                if any numbers are equal, return false
+        return true
+* 4. Create function checkRowSum with parameters(int arr1[], int arr2[], int arr3[], int size)
+        create arr of size 3 and initialize with values of 0
+        for through size
+            add value of arr1 at index to arr
+            add value of arr2 at index to arr
+            add value of arr3 at index to arr
+        }
+    return true if all elements in initial array are the same;
+* 5. Create function checkColSum with parameters(int arr1[], int arr2[], int arr3[], int size)
+        create arr to hold totals of each column
+        for through size
+            add column totals to each index in array of totals
+        }
+    return true, if all column totals are equal, false if not
+* 6. Create function checkDiagSum with parameters(int arr1[], int arr2[], int arr3[], int size)
+        diag1 = total of nums from top left to bottom right
+        diag2 = total of nums from bottom left to top right
+        return true if diag1 is equal to diag2, false if not; 
+* 7. Create function fillArray with parameters(int arr1[], int arr2[], int arr3[], int size)
+        Take in 9 numbers from user input, fill in arr1, 2 and 3 from left to right, top to bottom
+* 8. Create function showArray with parameters(int arr1[], int arr2[], int arr3[], int size)
+        for through size 
+            print row 1
+        for through size
+            print row 2
+        for through size
+            print row 3
+* 9. In Main, call fillArray, and showArray
+* 10. If isMagicSquare() is true print "you now have magic square", else, "This is not magic square"
 */
 
 #include<iostream>
@@ -61,87 +76,94 @@ void showArray(int arrayrow1[], int arrayrow2[], int arrayrow3[], int size);
 int main()
 {
 	
-	/* Define a Lo Shu Magic Square using 3 parallel arrays corresponding         to each row of the grid */
+	/* Define a Lo Shu Magic Square using 3 parallel arrays corresponding to each row of the grid */
 	int magicArrayRow1[COLS], magicArrayRow2[COLS], magicArrayRow3[COLS];
-        // Your code goes here
 
+    // Your code goes here
     fillArray(magicArrayRow1, magicArrayRow2, magicArrayRow3, 3); 
     showArray(magicArrayRow1, magicArrayRow2, magicArrayRow3, 3);
-
+    
+    if (isMagicSquare(magicArrayRow1, magicArrayRow2, magicArrayRow3, 3)) {
+        cout << "You now have a magic square!" << endl;
+    } else {
+        cout << "This is not a magic square!" << endl; 
+    }
+    
 	return 0;
 }
 // Function definitions go here
 
 bool isMagicSquare(int arrayRow1[], int arrayRow2[], int arrayRow3[], int size) {
-    return true; 
+    bool conditions[5];
+    conditions[0] = checkRange(arrayRow1, arrayRow2, arrayRow3, size, MIN, MAX); 
+    conditions[1] = checkUnique(arrayRow1, arrayRow2, arrayRow3, size); 
+    conditions[2] = checkRowSum(arrayRow1, arrayRow2, arrayRow3, size); 
+    conditions[3] = checkColSum(arrayRow1, arrayRow2, arrayRow3, size); 
+    conditions[4] = checkDiagSum(arrayRow1, arrayRow2, arrayRow3, size);
+
+    for (int i = 0; i < 5; i++) {
+        if (conditions[i] == 0) {
+            return 0;
+        }
+    }
+    return 1; 
 }
 
 bool checkRange(int arrayRow1[], int arrayRow2[], int arrayRow3[], int size, int min, int max) {
-    bool rangeGood = true; 
     for (int i = 0; i < size; i++) {
         if (arrayRow1[i] < min || arrayRow1[i] > max) {
-            rangeGood = false;
+            return 0; 
         }
-    }
-    for (int i = 0; i < size; i++) {
         if (arrayRow2[i] < min || arrayRow2[i] > max) {
-            rangeGood = false;
+            return 0; 
         }
-    }
-    for (int i = 0; i < size; i++) {
         if (arrayRow3[i] < min || arrayRow3[i] > max) {
-            rangeGood = false;
+            return 0; 
         }
     }
-    return rangeGood; 
+    return 1; 
 }
 
 bool checkUnique(int arrayRow1[], int arrayRow2[], int arrayRow3[], int size) {
-    bool valid = true; 
-    for (int i = 0; i < size; i++) {
-        for (int x = 0; x < size x++) {
-            if (arrayRow1[i] == arrayRow2[x]) {
-                valid = false;
-                x = size; 
-                i = size; 
-            }
+    // check if any numbners in row are equal 
+    bool row1 = arrayRow1[0] == arrayRow1[1] || arrayRow1[0] == arrayRow1[2] || arrayRow1[1] == arrayRow1[2]; 
+    bool row2 = arrayRow2[0] == arrayRow2[1] || arrayRow2[0] == arrayRow2[2] || arrayRow2[1] == arrayRow2[2];
+    bool row3 = arrayRow3[0] == arrayRow3[1] || arrayRow3[0] == arrayRow3[2] || arrayRow3[1] == arrayRow3[2];
+
+    // check if any numbers in other rows are equal
+    if (row1 == 0 || row2 == 0 || row3 == 0) {
+        for (int i = 0; i < size; i++) {
+            for (int x = 0; x < size; x++){
+                if(arrayRow1[i] == arrayRow2[x] || arrayRow1[i] == arrayRow3[x] || arrayRow2[i] == arrayRow3[x]) {
+                    return 0;
+                }
+            }   
         }
-        for (int x = 0; x < size x++) {
-            if (arrayRow1[i] == arrayRow3[x]) {
-                valid = false;
-                x = size; 
-                i = size; 
-            }
-        }
-    }
-    return true; 
+    } 
+    return 1; 
 }
 
 bool checkRowSum(int arrayrow1[], int arrayrow2[], int arrayrow3[], int size) {
-    int rowTotal1, rowTotal2, rowTotal3; 
+    int rowTot[3] = {0, 0, 0}; 
     for (int i = 0; i < size; i++) {
-        rowTotal1 += arrayrow1[i];
+        rowTot[0] += arrayrow1[i];
+        rowTot[1] += arrayrow2[i];
+        rowTot[2] += arrayrow3[i];
     }
-    for (int i = 0; i < size; i++) {
-        rowTotal2 += arrayrow2[i];
-    }
-    for (int i = 0; i < size; i++) {
-        rowTotal3 += arrayrow3[i];
-    }
-    return rowTotal1 == rowTotal2 == rowTotal3;
+    return rowTot[0] == rowTot[1] && rowTot[0] == rowTot[2] && rowTot[1] == rowTot[2];
 }
 
 bool checkColSum(int arrayrow1[], int arrayrow2[], int arrayrow3[], int size) {
-    int colTotals[3]; 
+    int colTot[3]; 
     for (int i = 0; i < size; i++) {
-        colTotal[i] = arrayrow1[0] + arrayrow2[0] + arrayrow3[0];
+        colTot[i] = arrayrow1[i] + arrayrow2[i] + arrayrow3[i];
     }
-    return colTotals[0] == colTotals[1] == colTotals[2]; 
+    return colTot[0] == colTot[1] && colTot[0] == colTot[2] && colTot[1] == colTot[2]; 
 }
 
 bool checkDiagSum(int arrayrow1[], int arrayrow2[], int arrayrow3[], int size) {
     int diag1 = arrayrow1[0] + arrayrow2[1] + arrayrow3[2];
-    int diag2 = arrayrow1[2] + arrayrow2[1] + arrayrow3[3];
+    int diag2 = arrayrow1[2] + arrayrow2[1] + arrayrow3[0];
     return diag1 == diag2; 
 }
 
@@ -153,6 +175,7 @@ void fillArray(int arrayRow1[], int arrayRow2[], int arrayRow3[], int size) {
 }
 
 void showArray(int arrayrow1[], int arrayrow2[], int arrayrow3[], int size) {
+    cout << "------" << endl; 
     for (int i = 0; i < size; i++) {
         cout << arrayrow1[i] << " ";
     }
@@ -164,5 +187,5 @@ void showArray(int arrayrow1[], int arrayrow2[], int arrayrow3[], int size) {
     for (int i = 0; i < size; i++) {
         cout << arrayrow3[i] << " ";
     }
-    cout << endl; 
+    cout << "\n------" << endl;  
 }
