@@ -55,6 +55,7 @@
 */
 
 #include<iostream>
+#include <string>
 using namespace std;
 
 // Global constants 
